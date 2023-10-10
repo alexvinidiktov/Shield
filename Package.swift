@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -16,8 +16,8 @@ let package = Package(
       targets: ["Shield", "ShieldSecurity", "ShieldCrypto", "ShieldOID", "ShieldPKCS", "ShieldX509", "ShieldX500"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/outfoxx/PotentCodables.git", from: "2.3.0"),
-    .package(url: "https://github.com/sharplet/Regex.git", from: "2.1.0")
+    .package(url: "https://github.com/vinidiktov/PotentCodables.git", revision: "84e10aefa6218b3e9c1de29c98b64882257b5828"),
+    .package(url: "https://github.com/vinidiktov/RegexKit.git", revision: "e31bd88a752478d3fb1f019e4fb53f3d6f9696ff")
   ],
   targets: [
     .target(
@@ -45,7 +45,7 @@ let package = Package(
     ),
     .target(
       name: "ShieldSecurity",
-      dependencies: ["ShieldCrypto", "ShieldOID", "ShieldPKCS", "ShieldX500", "ShieldX509", "PotentCodables", "Regex"]
+      dependencies: ["ShieldCrypto", "ShieldOID", "ShieldPKCS", "ShieldX500", "ShieldX509", "PotentCodables", "RegexKit"]
     ),
     .testTarget(
       name: "ShieldTests",

@@ -10,7 +10,7 @@
 
 import Foundation
 import PotentASN1
-import Regex
+import RegexKit
 import Security
 import ShieldCrypto
 import ShieldOID
