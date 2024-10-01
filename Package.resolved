@@ -13,7 +13,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://gitlab.e-imza.az/emilmsyv/OrderedDictionaryKit.git",
       "state" : {
-        "revision" : "e80bab83da7ac298c848bbec657c576a7260d8c0"
+        "revision" : "c84e66a7a141478a6e9243dcb6dbf505d1681589"
       }
     },
     {
@@ -21,7 +21,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://gitlab.e-imza.az/emilmsyv/PotentCodables.git",
       "state" : {
-        "revision" : "66e5e5cc64f6ad171e94f2d5a4399823df664b79"
+        "revision" : "f3d82338884bd9f8746ac104c870652a264cabc5"
       }
     },
     {

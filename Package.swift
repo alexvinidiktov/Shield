@@ -16,7 +16,7 @@ let package = Package(
       targets: ["Shield", "ShieldSecurity", "ShieldCrypto", "ShieldOID", "ShieldPKCS", "ShieldX509", "ShieldX500"]),
   ],
   dependencies: [
-    .package(url: "https://gitlab.e-imza.az/emilmsyv/PotentCodables.git", revision: "66e5e5cc64f6ad171e94f2d5a4399823df664b79"),
+    .package(url: "https://gitlab.e-imza.az/emilmsyv/PotentCodables.git", revision: "f3d82338884bd9f8746ac104c870652a264cabc5"),
     .package(url: "https://gitlab.e-imza.az/emilmsyv/RegexKit.git", revision: "e31bd88a752478d3fb1f019e4fb53f3d6f9696ff")
   ],
   targets: [
